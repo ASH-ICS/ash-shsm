@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>Jamieson</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+  <h2>Mr. Jamieson's Courses</h2>
+
+  <table class="w3-table-all w3-card-4">
+    <thead>
+      <tr class="w3-light-grey w3-hover-orange">
+        <th>Course Code</th>
+        <th>Course Name</th>
+        <th>Period</th>
+      </tr>
+    </thead>
+    <tr class="w3-hover-blue">
+      <td>ICD2O</td>
+      <td>Digital Technology in Todays World</td>
+      <td>1</td>
+    </tr>
+    <tr class="w3-hover-orange">
+      <td>ICS4U</td>
+      <td>Computer Science</td>
+      <td>2</td>
+    </tr>
+    <tr class="w3-hover-blue">
+      <td>ICS3U/C</td>
+      <td>Intro to Computer Science</td>
+      <td>4</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html> 

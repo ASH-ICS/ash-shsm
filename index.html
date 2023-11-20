@@ -1,65 +1,106 @@
 <!DOCTYPE html>
 <html>
-<title>Tech Dept</title>
+<title>Tech Site</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-orange.css">
 <body>
 
-<div class="w3-container">
-  <h2>All Saints High School Tech Department</h2>
-  <p>Welcome to your 2023-24 Techies</p>
-  <ul class="w3-ul w3-card-4">
-    <li class="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
-      <img src="avataaars.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-      <div class="w3-bar-item">
-        <span class="w3-large"><a href = "/teachers/mcdonough.html">Mr McDonough</a></span><br>
-        <span>Dept Head</span>
-      </div>
-    </li>
-    <li class="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
-      <img src="avataaars.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-      <div class="w3-bar-item">
-        <span class="w3-large">Mrs Black</span><br>
-        <span>Phys Ed and Home Economics</span>
-      </div>
-    </li>
-        <li class="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
-      <img src="avataaars.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-      <div class="w3-bar-item">
-        <span class="w3-large">Mr Kidd</span><br>
-        <span>Yearbook Guy</span>
-      </div>
-    </li>
-        <li class="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
-      <img src="avataaars.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-      <div class="w3-bar-item">
-        <span class="w3-large">Mr Johnston</span><br>
-        <span>Fixes Cars and Stuff</span>
-      </div>
-    </li>
-    <li class="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
-      <img src="Jamieson.png" class="w3-bar-item w3-circle w3-hide-small" style="width:100px">
-      <div class="w3-bar-item">
-        <span class="w3-large"><a href = "jamieson.html">Mr. Jamieson</a></span><br>
-        <span>Com Sci Teacher...aka Nerd</span>
-      </div>
-    </li>
+<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+<div class="w3-container w3-theme-d2">
+  <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+  <br>
+  <div class="w3-padding w3-center">
+    <img class="w3-circle" src="avataaars.png" alt="avatar" style="width:75%">
+  </div>
+</div>
+<a class="w3-bar-item w3-button" href="#">Teachers</a>
+<a class="w3-bar-item w3-button" href="#">Courses</a>
+<a class="w3-bar-item w3-button" href="#">News</a>
+</nav>
 
-    <li class="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
-      <img src="ezgif.com-webp-to-jpg.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-      <div class="w3-bar-item">
-        <span class="w3-large"><a href="/teachers/campbell.html">Mrs. Campbell</a></span><br>
-        <span>Makes us look Goooooood</span>
-      </div>
-    </li>
-  </ul>
+<header class="w3-top w3-bar w3-theme">
+  <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+  <h1 class="w3-bar-item">ASH Tech</h1>
+</header>
+
+<div class="w3-container" style="margin-top:90px">
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="Jamieson.png" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3><a href="jamieson.html">Mr. Jamieson</a></h3>
+    <p>Captain Nerd</p>
+  </div>
+</div>  
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="tay.jpg" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3><a href = "/teachers/campbell.html">Ms. Campbell</a></h3>
+    <p>Makes us look good</p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="avataaars.png" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3>Mr. Kidd</h3>
+    <p>Yearbook Guy</p>
+  </div>
+</div>
+<hr>
+  <div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="avataaars.png" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3>Mr. McDonough</h3>
+    <p>Dept Head Guy</p>
+  </div>
+</div>
+  <hr>
+  <div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="avataaars.png" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3>Mr. Black</h3>
+    <p>Cooking Gal</p>
+  </div>
+</div>
+  <hr>
+  <div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="avataaars.png" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3>Mr. Johnston</h3>
+    <p>Auto Guy</p>
+  </div>
+</div>
 </div>
 
+<footer class="w3-container w3-bottom w3-theme w3-margin-top">
+  <h3>Property of All Saints HS</h3>
+</footer>
+
+<script>
+closeSidebar();
+function openSidebar() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeSidebar() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
 </body>
-</html>
+
